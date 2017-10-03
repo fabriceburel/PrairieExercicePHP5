@@ -1,11 +1,10 @@
 <?php
-  $prenom ='fabrice';
-  $nom = 'burel';
-
-  function mafonction($var1,$var2)
+  $firstname = 'fabrice ';
+  $name = 'burel';
+  function mergestring($string1,$string2)
   {
-    $var3=$var1.$var2;
-    return $var3;
+    $result = $string1 . $string2;
+    return $result;
   }
-  echo mafonction($prenom,$nom);
+  echo mergestring($firstname,$name);
 ?>
